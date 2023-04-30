@@ -1,0 +1,30 @@
+// MIXIN FUNCTION ->>
+@mixin Flex($parameter) {
+  display: flex;
+  justify-content: $parameter;
+  align-items: center;
+}
+
+.show_all_products_container {
+  @include Flex(center);
+}
+
+.show_all_products_box {
+  max-width: 1300px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+// HEAD TEXT  ->>
+.show_all_products_text {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 10px;
+}
+
+// SLIDERS ->>
+.RelatedProductsSlider {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}

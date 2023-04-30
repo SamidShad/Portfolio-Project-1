@@ -1,0 +1,40 @@
+// FONTS IMPORT ->>
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800;900&family=Poppins:wght@300&display=swap");
+// IMPORT ALL SECTIONS STYLES ->>
+@import "./Components/Navbar/Navbar.scss";
+@import "./Components/Hero/Hero.scss";
+@import "./Components/ProductSider/ProductSider.scss";
+@import "./Components/Overview/Overview.scss";
+@import "./Components/HeadPhoneDesign/HeadPhoneDesing.scss";
+@import "./Components/BatteryLife/BatteryLife.scss";
+@import "./Components/RelatedProducts/RelatedProducts.scss";
+@import "./Components/Footer/Footer.scss";
+@import "./Components/Loader/Loader.scss";
+@import "./Components/ViewProduct/ViewProduct.scss";
+@import "./Components/ShowAll/Showall.scss";
+
+// RESET CSS ->>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// FOR SMOOTH SCROLLING ->>
+html {
+  scroll-behavior: smooth;
+}
+
+// WEBSITE MODIFACTIONS ->>
+::selection {
+  background-color: black;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+}
