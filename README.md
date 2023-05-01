@@ -10,7 +10,9 @@
 <br/>
 <b>3) Chakra Ui</b>
 <br/>
-<br/>
+
+<h1>Screenshots of the Project 📸</h1>
 
 ![127 0 0 1_5173_](https://user-images.githubusercontent.com/125702240/235423676-0715d78b-0f0b-4e72-b9b0-5478da08cdb0.png)
+
 <h1>Thanks For Read ♥</h1>
